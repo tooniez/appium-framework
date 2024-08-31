@@ -1,0 +1,14 @@
+{
+  "name": "appium-nodejs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "@tooniez",
+  "license": "MIT",
+  "description": "A simple Appium test using JavaScript",
+  "devDependencies": {
+    "webdriverio": "^9.0.7"
+  }
+}
