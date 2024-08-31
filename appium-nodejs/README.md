@@ -10,6 +10,12 @@ This test:
 4. Pauses briefly for visual effect
 5. Ends the Appium session
 
+## Packages
+
+The project uses the following npm packages:
+
+- webdriverio
+
 ## Prerequisites
 
 - Node.js and npm installed

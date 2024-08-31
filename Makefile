@@ -1,11 +1,19 @@
-.PHONY: test
+.PHONY: install start-appium run-tests all
+
+install:
+	@echo "Installing dependencies..."
+	cd appium-nodejs && npm i
+	@echo "Installing dotnet dependencies..."
+	cd appium-dotnet && dotnet restore --no-cache
 
 start-appium:
 	@echo "Starting Appium server..."
 	appium --log-timestamp
 
-run-node-tests:
+run-tests:
 	@echo "Running npm tests..."
 	cd appium-nodejs && npm run test
+	@echo "Running dotnet tests..."
+	cd appium-dotnet && dotnet test --logger "console;verbosity=normal"
 
-test: start-appium run-node-tests
+all: install run-tests
