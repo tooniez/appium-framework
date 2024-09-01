@@ -4,3 +4,6 @@ node_modules
 # dotnet
 obj
 bin
+
+# maven
+target
