@@ -10,7 +10,7 @@
 
   <properties>
     <junit.version>4.13.2</junit.version>
-    <appium.version>9.3.0</appium.version>
+    <appium.version>10.1.1</appium.version>
     <test.scope>test</test.scope>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
