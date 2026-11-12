@@ -9,6 +9,6 @@
   "license": "MIT",
   "description": "A simple Appium test using JavaScript",
   "devDependencies": {
-    "webdriverio": "^9.27.0"
+    "webdriverio": "^10.2.0"
   }
 }
